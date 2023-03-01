@@ -1,0 +1,91 @@
+.card {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: absolute;
+    display: flex;
+    top: 35%;
+    left: 30%;
+    height: 40%;
+    width: 35%;
+    background-color: $cardcolor !important;
+    // color: #a9a9a9;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border-radius: unset !important;
+    font-weight: $fontweightbold;
+}
+
+h5.head {
+    color: black;
+    text-align: center;
+    top: 2%;
+    font-weight: $fontweightbold;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+select,
+input {
+    padding-left: 10px;
+}
+
+#txt_username {
+    height: $inputheight;
+    font-weight: $fontweightbold;
+}
+
+#txt_password {
+    height: $inputheight;
+    font-weight: $fontweightbold;
+}
+
+#btn_login {
+    background-color: $navbackground;
+    color: white;
+    height: 3rem;
+    font-size: medium;
+    font-weight: 500;
+    bottom: 2%;
+    font-weight: $fontweightbold;
+
+}
+
+select,
+input {
+    padding-left: 10px;
+}
+
+#txt_password {
+    margin-bottom: 1px;
+}
+
+@media only screen and (max-width: 540px) {
+
+    .card {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 3%;
+        padding-right: 3%;
+        position: absolute;
+        display: flex;
+        top: 35%;
+        left: 15%;
+        height: 40%;
+        width: 70%;
+        background-color: $cardcolor !important;
+        // color: #a9a9a9;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+        border-radius: unset !important;
+        font-weight: $fontweightbold;
+    }
+
+}

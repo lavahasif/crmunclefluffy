@@ -1,0 +1,45 @@
+.bg-prcolor {
+    background-color: $navbackground !important;
+}
+
+.nav-text {
+    color: $navtextcolor;
+}
+
+img.left_nav_logo {
+    vertical-align: middle;
+    // width: 1.53in;
+    // height: .53in;
+    // width: 5rem;
+    height: 2rem;
+    margin-left: 10px;
+}
+
+img.right_nav_logo {
+    vertical-align: middle;
+    // width: 1.53in;
+    // height: .53in;
+    width: 2.5rem;
+    height: 1rem;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(195, 185, 185);
+}
+
+.nav-link:active {
+    color: rgb(195, 185, 185);
+}
+
+.nav-link::selection {
+    color: rgb(195, 185, 185);
+}
+
+.container {
+    background-color: white;
+}
