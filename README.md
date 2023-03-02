@@ -7,6 +7,8 @@
 
 ### checkonLive
 
+https://amp.vindians.xyz/
+
 @ larvel Authentication ,
 Authentication based on ppt
 
