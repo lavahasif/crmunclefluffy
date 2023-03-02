@@ -10,6 +10,24 @@
 @ larvel Authentication ,
 Authentication based on ppt
 
+##Core
+
+```php
+
+Route::get('/', [Login::class, 'Index']);
+Route::get('/Login', [Login::class, 'login'])->name('login');
+
+Route::group(['prefix' => 'admin'], function () {
+    // Routes that require authentication
+    Route::group(['middleware' => 'admin'], function () {
+        // Only authenticated users may enter...
+        Route::get('/dashboard', [AdminController::class, 'Index']);
+        Route::get('/newlead', [NewLeadController::class, 'Index'])->name('newlead');
+        Route::get('/newlead/add', [NewLeadController::class, 'add'])->name('leadadd');
+    });
+});
+
+```
 
 ### Create Table
 php artisan migrate
