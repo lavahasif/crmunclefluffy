@@ -24,6 +24,7 @@ Route::group(['prefix' => 'admin'], function () {
     Route::group(['middleware' => 'admin'], function () {
         // Only authenticated users may enter...
         Route::get('/dashboard', [AdminController::class, 'Index']);
-        Route::get('/newlead', [NewLeadController::class, 'Index']);
+        Route::get('/newlead', [NewLeadController::class, 'Index'])->name('newlead');
+        Route::get('/newlead/add', [NewLeadController::class, 'add'])->name('leadadd');
     });
 });

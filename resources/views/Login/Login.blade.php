@@ -11,6 +11,7 @@
 @section('content')
     {{-- <div class="container"> --}}
     <form method="get" action="{{ route('login') }}">
+        @csrf
         <div class="card">
 
             <h5 class="head">User Login</h5>

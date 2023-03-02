@@ -1,3 +1,16 @@
+
+### Mobile
+| 1                                                                           | 2                                                                           |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| <img src="public/images/IMG-20230302-WA0151.jpg" width="150" height="300"/> | <img src="public/images/IMG-20230302-WA0150.jpg" width="150" height="300"/> |
+| <img src="public/images/IMG-20230302-WA0152.jpg" width="150" height="300"/> | <img src="public/images/IMG-20230302-WA0153.jpg" width="150" height="300"/> |
+
+### checkonLive
+
+@ larvel Authentication ,
+Authentication based on ppt
+
+
 ### Create Table
 php artisan migrate
 ### Create Seed datatable
@@ -8,6 +21,10 @@ php artisan make:seeder UsersTableSeeder
 php artisan db:seed
 php artisan db:seed --class=UsersTableSeeder
 
+### create model class
+php artisan make:model source
+### create create migration class
+php artisan make:migration create_status_table --create=status
 
 
  ### List All Command

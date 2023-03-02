@@ -22,5 +22,6 @@ Artisan::command('clearall', function () {
     Artisan::call("config:clear ");
     Artisan::call("route:clear  ");
     Artisan::call("view:clear ");
+    Artisan::call("optimize:clear");
     $this->comment('All Cleared');
 })->purpose('Clear All Caches');

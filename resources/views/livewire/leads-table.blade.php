@@ -18,9 +18,10 @@
             <tr>
                 <td>
                     <div class="status">
-                        <div class="statuscolor" style="background-color:{{ $single->Status->color }} "></div>
+                        <div class="statuscolor" style="background-color:{{ $single->Status->color ?? 'white' }} ">
+                        </div>
                         <div class="st2">
-                            <p class="status_p">{{ $single->Status->name }}</p>
+                            <p class="status_p">{{ $single->Status->name?? "New" }}</p>
                         </div>
                     </div>
                 </td>
@@ -29,7 +30,7 @@
                 <td>{{ $single->customer->phone }}</td>
                 <td>{{ $single->customer->country }}</td>
                 <td>{{ $single->interest }}</td>
-                <td>{{ $single->Source->name }}</td>
+                <td>{{ $single->Source->name??"TikTok" }}</td>
                 <td>{{ date('d F Y', strtotime($single->created_at)) }}</td>
                 <td>{{ $single->remark }}</td>
             </tr>
