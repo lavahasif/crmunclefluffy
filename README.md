@@ -7,6 +7,8 @@
 
 ### checkonLive
 
+https://amp.webhoster.tech/
+or (some cloudflare isssue)
 https://amp.vindians.xyz/
 
 @ larvel Authentication ,
