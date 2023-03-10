@@ -10,9 +10,7 @@
 https://amp.webhoster.tech/
 <br/>
 
-or (some cloudflare isssue)
-<br/>
-https://amp.vindians.xyz/
+
 
 @ larvel Authentication ,
 Authentication based on ppt
