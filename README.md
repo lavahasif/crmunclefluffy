@@ -1,4 +1,8 @@
 
+## Requirement
+
+Please make sure not to use ready templates, strictly follow the attached design. Ready templates will be disqualified.
+
 ### Mobile
 | 1                                                                           | 2                                                                           |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
